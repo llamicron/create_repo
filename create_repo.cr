@@ -1,10 +1,15 @@
 require "./src/create_repo.cr"
 
-username = ARGV[0]
-repo_name = ARGV[1]
+unless ARGV.size == 2
+  print "Github username: "
+  username = gets.to_s.chomp
+  print "Repository name: "
+  repo_name = gets.to_s.chomp
+else
+  username = ARGV[0]
+  repo_name = ARGV[1]
+end
 
-raise "Please provide a username name" unless !username.empty?
-raise "Please provide a repository name" unless !repo_name.empty?
 repo = CreateRepo::Repo.new(username, repo_name)
 
 repo.create
