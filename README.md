@@ -2,7 +2,7 @@
 This program allows you to create a repository on Github directly from the command line
 
 ## Installation
-
+You will need [Crystal](https://crystal-lang.org/docs/installation/) installed.
 clone this repo and run
 ```shell
 $ make install
