@@ -1,6 +1,6 @@
 # create_repo
 
-TODO: Write a description here
+This program allows you to create a repository on Github directly from the command line
 
 ## Installation
 
@@ -9,7 +9,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   create_repo:
-    github: [your-github-name]/create_repo
+    github: llamicron/create_repo
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/create_repo/fork )
+1. Fork it ( https://github.com/llamicron/create_repo/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -34,4 +34,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Luke Sweeney - creator, maintainer
+- [llamicron](https://github.com/llamicron) | Luke Sweeney - creator, maintainer
