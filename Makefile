@@ -9,7 +9,7 @@ build:
 	echo "Built successfully"
 
 install_without_crystal:
-	sudo mv create_repo /usr/local/bin/create_repo
+	sudo cp create_repo /usr/local/bin/create_repo
 	echo "Installed successfully"
 
 install:

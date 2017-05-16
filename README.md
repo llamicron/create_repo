@@ -2,7 +2,16 @@
 This program allows you to create a repository on Github directly from the command line
 
 ## Installation
-You will need [Crystal](https://crystal-lang.org/docs/installation/) installed.
+### Without crystal
+Clone the repo and run
+```
+$ make install_without_crystal
+```
+This will move the included executable to `/usr/local/bin/create_repo`
+
+You can delete the repository after that.
+
+### With Crystal
 clone this repo and run
 ```shell
 $ make install
@@ -20,9 +29,9 @@ $ create_repo [username] [repo_name]
 If you do not provide these paramaters, you will be prompted for them, so
 ```shell
 $ create_repo
-Github username: 
-Repository name: 
-Github Password: 
+Github username:
+Repository name:
+Github Password:
 ```
 is just as effective.
 
